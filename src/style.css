@@ -1,0 +1,72 @@
+a{
+    text-decoration: none!important;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: all ease-in 500ms;
+    z-index: 1;
+}
+
+.nav-logo{
+    color: rgb(39, 39, 189)!important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 0 0 2px #222;
+    padding: 0 .5rem;
+}
+
+.nav_bg{
+    background-color: #222;
+    opacity: .7;
+}
+
+.nav-right-image img{
+    height: 3rem;
+    width: 100%;
+    object-fit: contain;
+    padding: .5rem;
+}
+
+.hero{
+    max-height:30rem!important;
+}
+
+.hero p{
+
+    display: -webkit-box!important;
+    -webkit-line-clamp: 3!important;
+    -webkit-box-orient: vertical!important;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis!important;
+    height:5.7rem;
+
+}
+
+
+.hero h2{
+    text-shadow: 0 0 .3rem #222;
+}
+
+.hero button{
+    background-color: #222;
+    opacity: .7;
+    box-shadow: none!important;
+}
+.hero .colour{
+    background: linear-gradient(180deg, #333, rgb(136, 37, 37) );
+}
+.bottom-hero-overlay::before{
+    margin-top: 8rem;
+    content: "";
+    height: 5rem;
+    display: block;
+    width: 100%;
+    background: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+   
+
+}
